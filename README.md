@@ -18,7 +18,7 @@ This tool is provided for educational and research purposes only. The use of thi
 Usage:
 Clone the repository to your system:
 ```
-git clone https://github.com/DARKSECshell/BYPASS-ROOTKIT.git
+git clone https://github.com/DARKSECshell/BYPASS-RKHUNTER.git
 ```
 Run the bypass.sh script:
 ```
