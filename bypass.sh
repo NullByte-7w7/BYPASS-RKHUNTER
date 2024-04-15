@@ -96,10 +96,12 @@ case "$choice" in
 
 if /usr/bin/lsmod | grep -w "darksec"; then
 
+	clear
 	echo "[+] ROOTKIT LOADING WITH SUCESS!!"
 	exit
 else
 
+ 	clear
 	echo "ROOTKIT NOT LOADING, TRY AGAIN :("
 	exit
 fi
