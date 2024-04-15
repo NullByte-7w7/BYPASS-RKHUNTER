@@ -2,10 +2,6 @@
 # MY BYPASS FOR ALL ROOTKIT
 # author: Darksec github --> https://github.com/DARKSECshell
 
-#list rk
-location=$(/usr/bin/ls /tmp/Diamorphine/.darksec/)
-
-
 #INSTALL DEPENDECIES
 MAKE() {
 
@@ -90,7 +86,7 @@ case "$choice" in
 
 	clear
 	echo "THANKS FOR USING MY BYPASS ROOTKIT"
-	echo "Location ROOTKIT --> " "$location"
+	echo "Location ROOTKIT --> /tmp/Diamorphine/.darksec"
 	exit
 
 	fi
