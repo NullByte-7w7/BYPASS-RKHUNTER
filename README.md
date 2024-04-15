@@ -22,7 +22,7 @@ git clone https://github.com/DARKSECshell/BYPASS-ROOTKIT.git
 ```
 Run the bypass.sh script:
 ```
-./bypass.sh
+sudo ./bypass.sh
 ```
 
 **How Work:**
