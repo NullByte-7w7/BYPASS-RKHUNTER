@@ -3,7 +3,7 @@
 ![bypass_diamorphine](https://github.com/DARKSECshell/BYPASS-ROOTKIT/assets/121623691/3f9c78e8-9eed-4c53-a461-ea76cd1170d6)
 
 
-**BYPASS ROOTKIT**
+**BYPASS RKHUNTER**
 
 **Bypass.sh** is a tool developed for educational and research purposes, designed to demonstrate how rkhunter's detection mechanisms can be circumvented. rkhunter is a security tool used to detect rootkits and other threats on Unix-like systems.
 
