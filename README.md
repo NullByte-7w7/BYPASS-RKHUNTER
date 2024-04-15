@@ -10,7 +10,7 @@ Circumvent rkhunter's detection methods.
 Demonstrate evasion techniques.
 Legal Disclaimer:
 This tool is provided for educational and research purposes only. The use of this tool for malicious or illegal activities is strictly prohibited. The developer is not responsible for any misuse of this tool.
----
+
 
 Usage:
 Clone the repository to your system:
@@ -23,7 +23,7 @@ Run the bypass.sh script:
 ```
 **Contribution:**
 Contributions are welcome! If you have suggestions for improvements or encounter issues, feel free to open an issue or submit a pull request.
----
+
 
 **Disclaimer:**
 The use of this tool is at your own risk. Make sure you understand the risks involved and the terms of use before using this tool.
