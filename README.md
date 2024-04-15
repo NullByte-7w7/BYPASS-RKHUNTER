@@ -3,7 +3,7 @@
 **BYPASS ROOTKIT**
 
 **Bypass.sh** is a tool developed for educational and research purposes, designed to demonstrate how rkhunter's detection mechanisms can be circumvented. rkhunter is a security tool used to detect rootkits and other threats on Unix-like systems.
----
+
 
 **Key Features:**
 Circumvent rkhunter's detection methods.
