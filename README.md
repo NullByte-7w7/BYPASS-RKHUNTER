@@ -1,11 +1,10 @@
 # LINUX-RAGE
 
-![bypass_diamorphine](https://github.com/DARKSECshell/BYPASS-ROOTKIT/assets/121623691/ec2903c7-c01a-4725-ae5c-22e12fc4774d)
+**BYPASS ROOTKIT**
 
-**Bypass.sh**
-Bypass.sh is a tool developed for educational and research purposes, designed to demonstrate how rkhunter's detection mechanisms can be circumvented. rkhunter is a security tool used to detect rootkits and other threats on Unix-like systems.
+**Bypass.sh** is a tool developed for educational and research purposes, designed to demonstrate how rkhunter's detection mechanisms can be circumvented. rkhunter is a security tool used to detect rootkits and other threats on Unix-like systems.
 
-Key Features:
+**Key Features:**
 Circumvent rkhunter's detection methods.
 Demonstrate evasion techniques.
 Legal Disclaimer:
@@ -13,17 +12,17 @@ This tool is provided for educational and research purposes only. The use of thi
 
 Usage:
 Clone the repository to your system:
-bash
-Copy code
+```
 git clone https://github.com/your-username/bypass.git
+```
 Run the bypass.sh script:
-bash
-Copy code
+```
 ./bypass.sh
-Contribution:
+```
+**Contribution:**
 Contributions are welcome! If you have suggestions for improvements or encounter issues, feel free to open an issue or submit a pull request.
 
-Disclaimer:
+**Disclaimer:**
 The use of this tool is at your own risk. Make sure you understand the risks involved and the terms of use before using this tool.
 
 Feel free to adapt this template as needed, including additional information about how the tool works, usage examples, system requirements, and other relevant details. Always emphasize the educational and ethical nature of the tool and discourage its use for malicious activities.
