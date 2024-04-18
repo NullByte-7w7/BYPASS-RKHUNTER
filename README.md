@@ -1,6 +1,6 @@
 # LINUX-RAGE
 
-![bypass_diamorphine](https://github.com/DARKSECshell/BYPASS-ROOTKIT/assets/121623691/3f9c78e8-9eed-4c53-a461-ea76cd1170d6)
+![arch_root](https://github.com/DARKSECshell/BYPASS-RKHUNTER/assets/121623691/7b8b8ea5-184e-441c-9309-0d1194269074)
 
 
 **BYPASS RKHUNTER**
