@@ -1,6 +1,7 @@
 # LINUX-RAGE
 
-![arch_root](https://github.com/DARKSECshell/BYPASS-RKHUNTER/assets/121623691/7b8b8ea5-184e-441c-9309-0d1194269074)
+![arch_root](https://github.com/DARKSECshell/BYPASS-RKHUNTER/assets/121623691/215e5d46-8604-4eee-beb5-f7941519ff4b)
+
 
 
 **BYPASS RKHUNTER**
